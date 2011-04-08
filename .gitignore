@@ -1,4 +1,5 @@
 *.rbc
+.rvmrc
 doc
 pkg
 tmp
