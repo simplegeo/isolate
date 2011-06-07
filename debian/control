@@ -1,0 +1,22 @@
+Source: isolate
+Section: ruby
+Priority: extra
+Maintainer: Paul Lathrop <paul@simplegeo.com>
+Build-Depends: cdbs, debhelper (>= 7), ruby-pkg-tools
+Standards-Version: 3.8.3
+Homepage: https://github.com/jbarnette/isolate
+
+Package: isolate
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Isolate is a very simple RubyGems sandbox.
+ When Isolate runs, it uses GEM_HOME, GEM_PATH, and a few other tricks
+ to separate your code from the system’s RubyGems configuration,
+ leaving it free to run in blissful solitude.
+ Isolate is very, very, very stupid simple. For a much more
+ full-featured Gem bundler, check out Yehuda Katz and Carl Lerche’s
+ Bundler: It does a lot of fancy AOT dependency resolution, supports
+ non-gem (including git) resources, and is probably a better fit for
+ you.
+
+
