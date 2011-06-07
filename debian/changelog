@@ -1,4 +1,4 @@
-isolate (2.1.0-0sg0) unstable; urgency=low
+isolate (3.1.0-0sg0) unstable; urgency=low
 
   * Initial debian packaging.
 
