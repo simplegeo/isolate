@@ -7,7 +7,7 @@ Standards-Version: 3.8.3
 Homepage: https://github.com/jbarnette/isolate
 
 Package: isolate
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Isolate is a very simple RubyGems sandbox.
  When Isolate runs, it uses GEM_HOME, GEM_PATH, and a few other tricks
