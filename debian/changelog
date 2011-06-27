@@ -1,3 +1,9 @@
+isolate (3.1.0-0sg31) maverick; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 27 Jun 2011 00:28:49 +0000
+
 isolate (3.1.0-0sg3) lucid; urgency=low
 
   [ Paul Lathrop ]
